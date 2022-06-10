@@ -76,3 +76,16 @@ knitr::include_graphics('images/img2.png')
 ## Литература
 Adams, Vicki. 2008. “Introduction to Data Analysis.” The Journal of Small Animal Practice 49 (September): 375–76. https://doi.org/10.1111/j.1748-5827.2008.00647.x.
 Dryer, Matthew, and Martin Haspelmath. 2020. “cldf-datasets/wals: The World Atlas of Language Structures Online.” Zenodo. https://doi.org/10.5281/zenodo.3731125.
+
+## Домашнее задание 
+1. Приведите пример лингвистических данных для каждого типа (Nominal, Ordinal, Interval, Ratio). Для каждого примера поясните, почему вы выбрали именно его? 
+
+2. Выберите один из примеров из предыдущего задания и приведите пример исследования, в котором бы вы использовали эти данные.
+
+3. Посмотрите [видео](https://postnauka.ru/video/86731) и ответьте на следующие вопросы: 
+
+  1. Как Google Books могут использоваться в исследовательских целях?
+  
+  2. С какими проблемами сталкиваются исследователи, используя Google Books и Google Ngrams?
+  
+[будущая ссылка на GitHub Classroom](https://ustera.github.io/getting_corpus_data/обзор-данных-для-лингвистических-исследований.html)
