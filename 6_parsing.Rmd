@@ -7,7 +7,6 @@ editor_options:
 knitr::opts_chunk$set(message = FALSE, warning = FALSE, comment = "")
 options(scipen=999)
 library(tidyverse)
-library(checkdown)
 theme_set(theme_bw())
 ```
 
@@ -116,20 +115,20 @@ tags = tags.split('\n')[1:-1] #делаем список тегов
 ```
 
 ```{block, type = "rmdtask"}
-Попробуйте теперь самостоятельно написать строку поиска названия и текста для [газеты](https://pressaobninsk.ru/). Например для поиска автора выше мы использовали 
-soup.find("h3", attrs={"class": "itemAuthorName"}).get_text(). 
+Попробуйте теперь самостоятельно найти блоки, где хранятся название и текст, у [газеты](https://pressaobninsk.ru/). Например для поиска автора выше мы нашли блок `itemAuthorName`. 
 В таком же виде укажите ответы для данного издания.
 ```
 
 Введите функцию для поиска названия статьи
 
 ```{r, echo=FALSE, results='asis'}
-check_question(answer =  'soup.find("div", attrs={"class": "news-title__name"}).get_text()')
+library(checkdown)
+check_question(answer = 'news-title__name')
 ```
 
 Введите функцию для поиска текста статьи
 
 ```{r, echo=FALSE, results='asis'}
-check_question(answer =  'soup.find("div", attrs={"class": "news-content"}).get_text()')
+check_question(answer =  'news-content')
 ```
 

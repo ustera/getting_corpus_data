@@ -262,23 +262,23 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb6-20"><a href="как-собрать-корпус-самостоятельно.-краулеры..html#cb6-20" aria-hidden="true" tabindex="-1"></a>tags <span class="op">=</span> tags.split(<span class="st">&#39;</span><span class="ch">\n</span><span class="st">&#39;</span>)[<span class="dv">1</span>:<span class="op">-</span><span class="dv">1</span>] <span class="co">#делаем список тегов</span></span></code></pre></div>
 <div class="rmdtask">
 <p>
-Попробуйте теперь самостоятельно написать строку поиска названия и текста для <a href="https://pressaobninsk.ru/">газеты</a>. Например для поиска автора выше мы использовали soup.find(“h3,” attrs={“class”: “itemAuthorName”}).get_text(). В таком же виде укажите ответы для данного издания.
+Попробуйте теперь самостоятельно найти блоки, где хранятся название и текст, у <a href="https://pressaobninsk.ru/">газеты</a>. Например для поиска автора выше мы нашли блок <code>itemAuthorName</code>. В таком же виде укажите ответы для данного издания.
 </p>
 </div>
 <p>Введите функцию для поиска названия статьи</p>
-<form name="form_39068" onsubmit="return validate_form_39068()" method="post">
-<input type="text" name="answer_39068"><br><input type="submit" value="check">
+<form name="form_16810" onsubmit="return validate_form_16810()" method="post">
+<input type="text" name="answer_16810"><br><input type="submit" value="check">
 </form>
-<p id="result_39068">
+<p id="result_16810">
 </p>
-<script> function validate_form_39068() {var x, text; var x = document.forms["form_39068"]["answer_39068"].value;if (x == "soup.find("div", attrs={"class": "news-title__name"}).get_text()"){text = 'Correct';} else {text = 'I have a different answer';} document.getElementById('result_39068').innerHTML = text; return false;} </script>
+<script> function validate_form_16810() {var x, text; var x = document.forms["form_16810"]["answer_16810"].value;if (x == "news-title__name"){text = 'Correct';} else {text = 'I have a different answer';} document.getElementById('result_16810').innerHTML = text; return false;} </script>
 <p>Введите функцию для поиска текста статьи</p>
-<form name="form_39719" onsubmit="return validate_form_39719()" method="post">
-<input type="text" name="answer_39719"><br><input type="submit" value="check">
+<form name="form_26126" onsubmit="return validate_form_26126()" method="post">
+<input type="text" name="answer_26126"><br><input type="submit" value="check">
 </form>
-<p id="result_39719">
+<p id="result_26126">
 </p>
-<script> function validate_form_39719() {var x, text; var x = document.forms["form_39719"]["answer_39719"].value;if (x == "soup.find("div", attrs={"class": "news-content"}).get_text()"){text = 'Correct';} else {text = 'I have a different answer';} document.getElementById('result_39719').innerHTML = text; return false;} </script>
+<script> function validate_form_26126() {var x, text; var x = document.forms["form_26126"]["answer_26126"].value;if (x == "news-content"){text = 'Correct';} else {text = 'I have a different answer';} document.getElementById('result_26126').innerHTML = text; return false;} </script>
 
 </div>
 </div>
