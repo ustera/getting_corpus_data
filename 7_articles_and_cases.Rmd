@@ -1,0 +1,17 @@
+---
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup07, include=FALSE}
+knitr::opts_chunk$set(message = FALSE, warning = FALSE, comment = "")
+options(scipen=999)
+library(tidyverse)
+theme_set(theme_bw())
+```
+
+# Обзор статей и методов
+
+```{r img0_7, echo=FALSE, out.width = '75%'}
+knitr::include_graphics('images/img0.png')
+```

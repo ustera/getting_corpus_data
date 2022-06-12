@@ -88,4 +88,4 @@ Dryer, Matthew, and Martin Haspelmath. 2020. “cldf-datasets/wals: The World At
   
 С какими проблемами сталкиваются исследователи, используя Google Books и Google Ngrams?
   
-[будущая ссылка на GitHub Classroom](https://ustera.github.io/getting_corpus_data/обзор-данных-для-лингвистических-исследований.html)
+[будущая ссылка на GitHub Classroom](обзор-данных-для-лингвистических-исследований.html)

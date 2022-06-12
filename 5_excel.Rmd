@@ -1,0 +1,23 @@
+---
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup05, include=FALSE}
+knitr::opts_chunk$set(message = FALSE, warning = FALSE, comment = "")
+options(scipen=999)
+library(tidyverse)
+theme_set(theme_bw())
+```
+
+# Практическое занятие по Excel
+
+```{r img0_5, echo=FALSE, out.width = '75%'}
+knitr::include_graphics('images/img0.png')
+```
+
+## Домашнее задание
+
+Скачайте выдачу для конструкций вида "две большие девочки" и "две больших девочки" в художественных текстах и публицистике. Составьте сводные таблицы встречаемости этих типов конструкций в двух корпусах. В Github Classroom загрузите таблицу с выдачей и сводными таблицами. 
+
+[будущая ссылка на GitHub Classroom](практическое-занятие-по-excel.html)
