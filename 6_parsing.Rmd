@@ -124,12 +124,12 @@ soup.find("h3", attrs={"class": "itemAuthorName"}).get_text().
 Введите функцию для поиска названия статьи
 
 ```{r, echo=FALSE, results='asis'}
-check_question(answer =  'soup.find("div", attrs={"class": "news-title__name"}).get_text()', right = "correct", wrong = "not correct")
+check_question(answer =  'soup.find("div", attrs={"class": "news-title__name"}).get_text()')
 ```
 
 Введите функцию для поиска текста статьи
 
 ```{r, echo=FALSE, results='asis'}
-check_question(answer =  'soup.find("div", attrs={"class": "news-content"}).get_text()', right = "correct", wrong = "not correct")
+check_question(answer =  'soup.find("div", attrs={"class": "news-content"}).get_text()')
 ```
 
